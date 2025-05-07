@@ -1,0 +1,133 @@
+.hamburger-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+  }
+  
+
+  .nav-pill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #666666;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    width: 13rem;
+    margin: 1rem auto;
+  }
+  
+  .nav-pill .tball {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .hamburger-button {
+    z-index: 100;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hamburger-bars {
+    color: white;
+    font-size: 1.8rem;
+  }
+  
+
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .menu-items li {
+    margin: 1.5rem 0;
+  }
+  
+  .menu-items li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .menu-items li a:hover {
+    color: #F3B818;
+  }
+  
+  .menu-cta {
+    margin-top: 2rem;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  .menu-cta button {
+    width: 100%;
+    background-color: white;
+    color: #000;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-cta button:hover {
+    background-color: #F3B818;
+    color: white;
+  }
+
+  @media screen and (max-width: 1207px) {
+    .desktop-menu {
+      display: none;
+    }
+  }
+  
+ 
+  .desktop-menu {
+    width: 100%;
+  }
