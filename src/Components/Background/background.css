@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 150px;
   margin-top: 15px;
   margin-bottom: 30px;
   padding: 40px 0px;
-  /* border: 2px solid gold; */
+  /* border: 2px solid gold; */ */
 }
 
 .reverse {
@@ -19,6 +20,7 @@
     align-items: center;
     margin: 15px 15px;
     padding: 0px 20px;
+    gap: 50px;
     /* border: 2px solid gold; */
   }
   .reverse {
@@ -30,7 +32,7 @@
 
 .image-block {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   height: auto;
   position: relative;
   margin: 15px 15px;
@@ -75,15 +77,40 @@
 }
 
 @media (max-width: 534px) {
+  .section {
+    gap: 20px;
+  }
   .image-block {
     max-width: 350px;
   }
 
+  .text-block {
+    max-width: 350px;
+    justify-content: center;
+    padding-left: 4px;
+
+  }
+
   .text-block h2 {
-    font-size: 40px;
+    font-size: 35px;
+    margin-bottom: 6px;
   }
 
   .text-block p {
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: 420px) {
+  .text-block h2 {
+    font-size: 27px;
+    margin-bottom: 4px;
+    /* border: 2px solid gold; */
+  }
+
+  .text-block p {
+    font-size: 12px;
+    margin-bottom: 0.5em;
   }
 }
