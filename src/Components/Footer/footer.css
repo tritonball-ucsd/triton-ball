@@ -1,6 +1,6 @@
 footer{
 
-    padding: 1rem 1rem 1rem 0;
+    padding: 1rem 1rem 1rem 1rem;
     /* background-color: rebeccapurple; */
 }
 .footer-links{
@@ -24,7 +24,9 @@ footer{
     text-wrap: wrap;
     /* background-color: rebeccapurple; */
     text-align: center;
-    margin-left: 5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    /* border: 2px solid gold; */
 
 }
 
@@ -46,11 +48,13 @@ footer{
 }
 
 @media (max-width: 698px){
-    .footer-links{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
+    .footer-links {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem; 
+      margin: 0 auto;
+      padding: 1rem;
+      /* border: 2px solid gold; */
     }
-    
-}
+  }

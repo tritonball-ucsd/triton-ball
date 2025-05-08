@@ -4,7 +4,7 @@ import HamburgerMenu from './../Hamburger/HamburgerMenu';
 
 function Nav() {
   const [scrolling, setScrolling] = useState(false);
-  let scrollTimeout: NodeJS.Timeout;
+  let scrollTimeout: number;
 
   useEffect(() => {
     const handleScroll = () => {
