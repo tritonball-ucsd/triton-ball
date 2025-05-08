@@ -1,7 +1,7 @@
 // import './styles/App.css'
 import Nav from './Components/NavBar/Nav'
 import Background from './Components/Background/background'
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {BrowserRouter as Router, Routes} from "react-router-dom";
 import Footer from './Components/Footer/Footer';
 
 
