@@ -1,6 +1,7 @@
 // import './styles/App.css'
 import Nav from './Components/NavBar/Nav'
 import Background from './Components/Background/background'
+import OurWork from './Components/OurWork/ourwork';
 import {BrowserRouter as Router, Routes} from "react-router-dom";
 import Footer from './Components/Footer/Footer';
 import project1 from "./assets/project1.webp"
@@ -26,6 +27,7 @@ function App() {
         player_image={basketball}
         title="WHAT WE DO" 
         text={["We work with UCSD’s athletic teams to turn data into insights. Our work spans sports from baseball to soccer to basketball, with projects ranging from short-term scouting to long-term player development and in-game strategy.", "Outside of team projects, we host workshops, discussions, and competitions to help students explore and grow in the field of sports analytics."]}/>
+        <OurWork/>
         <Routes>
         </Routes>
       </Router>
