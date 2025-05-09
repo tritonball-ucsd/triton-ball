@@ -3,12 +3,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    border: 1.5px solid gold;
+    border: 1.5px solid rgb(141, 141, 141);
     border-radius: 25px;
     width: 25rem;
     height: 38rem;
     margin: 20px 10px;
     padding: 15px 15px;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), z-index 0.3s;
+    will-change: transform;
+
 }
 
 .card img {
@@ -38,6 +41,8 @@
     transform: scale(1.05);
     z-index: 1;
     transition: transform 0.3s ease;
+    border: 1.5px solid rgb(255, 255, 255);
+
 }
 
 @media (max-width: 768px) {
@@ -71,5 +76,5 @@
 
     .card-text-block p {
         font-size: 14px;
-    } */
+    } 
 }
