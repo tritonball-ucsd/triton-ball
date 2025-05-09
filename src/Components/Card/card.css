@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     border: 1.5px solid gold;
     border-radius: 25px;
     width: 25rem;
@@ -24,12 +24,12 @@
 }
 
 .car-dtext-block h2 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .card-text-block p{
     padding-left: 12px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: start;
     margin-bottom: 18px;
 }
@@ -38,4 +38,38 @@
     transform: scale(1.05);
     z-index: 1;
     transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+
+    .card {
+        width: 18rem;
+        height: 30rem;
+        padding: 12px;
+    }
+
+    .card-text-block h2 {
+        font-size: 20px;
+    }
+
+    .card-text-block p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .card {
+        width: 10rem; 
+        height: auto; 
+        padding: 10px;
+    }
+
+    .card-text-block h2 {
+        font-size: 18px;
+    }
+
+    .card-text-block p {
+        font-size: 14px;
+    } */
 }
