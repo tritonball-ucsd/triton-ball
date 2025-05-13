@@ -3,6 +3,7 @@ import Nav from './Components/NavBar/Nav'
 import Background from './Components/Background/background'
 import OurWork from './Components/OurWork/ourwork';
 import Board from './Components/Board/board';
+import Testimonials from './Components/Testimonials/testimonials';
 import {BrowserRouter as Router, Routes} from "react-router-dom";
 import Footer from './Components/Footer/Footer';
 import project1 from "./assets/project1.webp"
@@ -32,6 +33,7 @@ function App() {
         <Routes>
         </Routes>
         <Board/>
+        <Testimonials/>
       </Router>
       <Footer/>
     </>
