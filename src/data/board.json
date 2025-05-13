@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Name Lastname",
+      "year": "Junior",
+      "major": "Computer Science",
+      "role": "Analytics",
+      "image": "https://placehold.co/225x225"
+    },
+    {
+      "name": "Name Lastname",
+      "year": "Senior",
+      "major": "Data Science",
+      "role": "Analytics",
+      "image": "https://placehold.co/225x225"
+    },
+    {
+      "name": "Name Lastname",
+      "year": "Sophomore",
+      "major": "Mathematics",
+      "role": "Analytics",
+      "image": "https://placehold.co/225x225"
+    },
+    {
+      "name": "Name Lastname",
+      "year": "Junior",
+      "major": "Economics",
+      "role": "Analytics",
+      "image": "https://placehold.co/225x225"
+    },
+    {
+      "name": "Name Lastname",
+      "year": "Freshman",
+      "major": "Cognitive Science",
+      "role": "Analytics",
+      "image": "https://placehold.co/225x225"
+    },
+    {
+      "name": "Name Lastname",
+      "year": "Senior",
+      "major": "Computer Engineering",
+      "role": "Analytics",
+      "image": "https://placehold.co/225x225"
+    },
+    {
+      "name": "Name Lastname",
+      "year": "Junior",
+      "major": "Statistics",
+      "role": "Analytics",
+      "image": "https://placehold.co/225x225"
+    },
+    {
+      "name": "Name Lastname",
+      "year": "Senior",
+      "major": "Business",
+      "role": "Analytics",
+      "image": "https://placehold.co/225x225"
+    }
+]
+  
