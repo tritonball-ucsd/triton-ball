@@ -1,12 +1,13 @@
-
-.title {
-    justify-content: center;
-    text-align: center;
-    margin-top: 150px;
-    padding: 0;
-    font-size: 40px;
-    margin-bottom: 100px
+.ourwork-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+  padding: 0;
+  font-size: 40px;
+  margin-bottom: 100px
 }
+
 
 .section-title{
     text-align: start;

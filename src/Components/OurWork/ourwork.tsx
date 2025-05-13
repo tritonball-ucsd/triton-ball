@@ -5,7 +5,7 @@ import PROJECTS from "../../data/projects.json";
 function OurWork() {
     return (
         <div className="ourwork">
-            <div className="title">
+            <div className="ourwork-title">
                 <h1>OUR WORK</h1>
             </div>
             <div className="section-title">

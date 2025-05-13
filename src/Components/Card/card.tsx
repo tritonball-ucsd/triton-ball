@@ -6,8 +6,6 @@ interface CardProps {
     description: string;
 }
 
-
-
 function Card(props: CardProps) {
     return (
         <div className="card">
