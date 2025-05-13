@@ -1,80 +1,79 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    border: 1.5px solid rgb(141, 141, 141);
-    border-radius: 25px;
-    width: 22rem;
-    height: 34rem;
-    margin: 20px 10px;
-    padding: 15px 15px;
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), z-index 0.3s;
-    will-change: transform;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1.5px solid rgb(141, 141, 141);
+  border-radius: 25px;
+  width: 22rem;
+  height: 34rem;
+  margin: 20px 10px;
+  padding: 15px 15px;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), z-index 0.3s;
+  will-change: transform;
 }
 
 .card img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px; /* optional rounding */
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
 }
 
 .card-text-block {
-    text-align: center;
-    padding-top: 20px;
-    /* border: 2px solid gold; */
+  padding-top: 20px;
+  text-align: center;
+  /* padding-top: 20px; */
+  /* border: 2px solid gold; */
 }
 
-.car-dtext-block h2 {
-    font-size: 30px;
+.card-text-block h2 {
+  font-size: 20px;
+  margin: 0px;
 }
 
-.card-text-block p{
-    padding-left: 12px;
-    font-size: 20px;
-    text-align: start;
-    margin-bottom: 18px;
+.card-text-block p {
+  padding-left: 12px;
+  font-size: 19px;
+  text-align: start;
+  margin-bottom: 18px;
+  overflow-y: scroll;
 }
 
 .card:hover {
-    transform: scale(1.05);
-    z-index: 1;
-    transition: transform 0.3s ease;
-    border: 1.5px solid rgb(255, 255, 255);
-
+  transform: scale(1.05);
+  z-index: 1;
+  transition: transform 0.3s ease;
+  border: 1.5px solid rgb(255, 255, 255);
 }
 
 @media (max-width: 768px) {
+  .card {
+    width: 18rem;
+    height: 30rem;
+    padding: 12px;
+  }
 
-    .card {
-        width: 18rem;
-        height: 30rem;
-        padding: 12px;
-    }
+  .card-text-block h2 {
+    font-size: 20px;
+  }
 
-    .card-text-block h2 {
-        font-size: 20px;
-    }
-
-    .card-text-block p {
-        font-size: 15px;
-    }
+  .card-text-block p {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 480px) {
+  .card {
+    width: 10rem;
+    height: auto;
+    padding: 10px;
+  }
 
-    .card {
-        width: 10rem; 
-        height: auto; 
-        padding: 10px;
-    }
+  .card-text-block h2 {
+    font-size: 18px;
+  }
 
-    .card-text-block h2 {
-        font-size: 18px;
-    }
-
-    .card-text-block p {
-        font-size: 14px;
-    } 
+  .card-text-block p {
+    font-size: 14px;
+  }
 }
