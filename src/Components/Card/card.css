@@ -36,7 +36,7 @@
   font-size: 19px;
   text-align: start;
   margin-bottom: 18px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .card:hover {
