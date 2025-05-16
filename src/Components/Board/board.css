@@ -39,24 +39,24 @@
 }
 
 .board-card {
-  background-color: #111; /* or #1a1a1a for contrast */
-  border: 1.5px solid rgb(141, 141, 141);
+  /* background-color: #111; or #1a1a1a for contrast */
+  /* border: 1.5px solid rgb(141, 141, 141); */
   border-radius: 16px;
-  padding: 16px;
-  margin: 8px;
+  padding: 16px 16px;
+  margin: 8px , 8px;
   width: 225px;
-  text-align: center;
+  text-align: start;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   transition: transform 0.3s ease;
 }
 
 .board-card:hover {
   transform: scale(1.03);
   z-index: 1;
-  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.2);
-  border: 1.5px solid rgb(255, 255, 255);
+  /* box-shadow: 0 4px 20px rgba(255, 215, 0, 0.2); */
+  /* border: 1.5px solid rgb(255, 255, 255); */
 }
 
 
@@ -68,6 +68,18 @@
   margin-bottom: 12px;
   display: block;
 }
+
+.board-card h3 {
+  margin: 4px 0; /* add if not already defined */
+  font-size: 1.1rem; /* optional: tweak font size */
+}
+
+.board-card p {
+  margin: 4px 0; /* reduce vertical space between <p> elements */
+  font-size: 0.9rem; /* optional: for tighter layout */
+}
+
+
 
 
 
