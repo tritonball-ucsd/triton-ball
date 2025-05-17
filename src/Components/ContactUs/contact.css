@@ -94,9 +94,9 @@
         position: static;
     }
 
-    .contact-image {
-        margin-left: -5%; /* or -2rem, adjust to taste */
-      }
+    /* .contact-image {
+        margin-left: -5%; 
+      } */
 }
 
 @media (min-width: 1012px) {
