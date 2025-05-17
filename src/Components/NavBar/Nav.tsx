@@ -2,6 +2,7 @@ import './nav.css'
 import { useState, useEffect } from 'react';
 import HamburgerMenu from './../Hamburger/HamburgerMenu';
 
+
 function Nav() {
   const [scrolling, setScrolling] = useState(false);
   let scrollTimeout: number;
@@ -27,10 +28,10 @@ function Nav() {
         <ul className='navbar-links'>
           <div className="grey-box">
             <li ><a className='tball' href="/">TBall</a></li>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/projects">Projects</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="/calendar">Calendar</a></li>
-            <li><a href="/board">Board</a></li>
+            <li><a href="#board">Board</a></li>
             <li><a href="/partners">Partners</a></li>
             <button>Join Us</button>
           </div>

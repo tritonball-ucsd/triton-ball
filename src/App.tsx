@@ -6,10 +6,12 @@ import Board from './Components/Board/board';
 import Testimonials from './Components/Testimonials/testimonials';
 import {BrowserRouter as Router, Routes} from "react-router-dom";
 import Footer from './Components/Footer/Footer';
-import project1 from "./assets/project1.webp"
-import project2 from "./assets/project2.webp"
+import project1 from "./assets/walking-img.webp"
+import project2 from "./assets/dino-img.webp"
 import soccer from "./assets/soccer.png"
 import basketball from "./assets/basketball.png"
+import Hero from './Components/Hero/Hero';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 
 function App() {
@@ -17,7 +19,8 @@ function App() {
     <>
     <Nav/>
       <Router>
-        <Background 
+        <Hero/>
+        <Background
         imagePosition="right" 
         image={project1}
         player_image={soccer}
@@ -34,6 +37,7 @@ function App() {
         </Routes>
         <Board/>
         <Testimonials/>
+        <ContactUs/>
       </Router>
       <Footer/>
     </>

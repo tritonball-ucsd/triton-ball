@@ -20,6 +20,7 @@
 
 .image-block {
   width: 100%;
+  border-radius: 1rem;
   max-width: 600px;
   height: auto;
   position: relative;
@@ -31,6 +32,8 @@
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 1rem;
+
 }
 
 .player-image {
@@ -70,8 +73,8 @@
 }
 
 .text-block {
-  max-width: 400px;
-  margin: 20px 0px;
+  max-width: 500px;
+  margin-top: 5rem;
 }
 
 .text-block h2 {
@@ -81,8 +84,10 @@
 }
 
 .text-block p {
-  font-size: 26px;
+  font-size: 1.5rem;
+  font-weight: 100;
   margin-bottom: 2em;
+  opacity: 0.7;
 }
 
 @media (max-width: 1207px) {

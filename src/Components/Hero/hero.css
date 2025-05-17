@@ -1,0 +1,43 @@
+.heroSection {
+    margin-top: 10rem;
+    background-image: linear-gradient(to right, #11284A, #F3B818);
+    min-height:65vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .tball-title {
+    font-size: clamp(3rem, 8vw, 5rem); /* Responsive font scaling */
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    margin: 0.5rem 0;
+    font-weight: 400;
+    color: white;
+  }
+  
+  .hero-logo {
+    width: clamp(10rem, 30vw, 20rem); /* Responsive image scaling */
+  }
+  
+  /* Optional: More tweaks for very small screens */
+  @media (max-width: 600px) {
+    .heroSection {
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+  
+    .hero-logo {
+      width: 12rem;
+    }
+  }
+  
