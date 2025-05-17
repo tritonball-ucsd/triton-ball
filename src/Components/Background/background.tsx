@@ -12,6 +12,7 @@ function Background({ imagePosition, image, player_image,title, text }: Backgrou
   return (
     <div id='about' className={`section ${imagePosition === "right" ? "reverse" : ""}`}>
       <div className="image-block">
+        <div className={`square${imagePosition==="left" ? "" : "-reverse"}`}></div>
         <img src={image} alt="image" />
         <img className={`player-image${imagePosition==="right" ? "" : "-reverse"}`} src={player_image} alt="player"/>
       </div>

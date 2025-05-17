@@ -1,60 +1,58 @@
-footer{
-
-    padding: 1rem 1rem 1rem 1rem;
-    /* background-color: rebeccapurple; */
+footer {
+  padding: 1rem 1rem 1rem 1rem;
+  /* background-color: rebeccapurple; */
 }
-.footer-links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo2{
-    width: 4rem;
-    height: auto;
-    background-color: #F3B818;
-    box-shadow: 0.1rem 0.1rem 2rem 0.5rem #F3B818;
-    border-radius: 50%;
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 10px;
 }
 
-.footer-title{
-    color: white;
-    font-size: 1.25rem;
-    opacity: 0.7;
-    text-wrap: wrap;
-    /* background-color: rebeccapurple; */
-    text-align: center;
-    /* margin-left: 5%;
+.logo2 {
+  width: 4rem;
+  height: auto;
+  background-color: #f3b818;
+  box-shadow: 0.1rem 0.1rem 2rem 0.5rem #f3b818;
+  border-radius: 50%;
+}
+
+.footer-title {
+  color: white;
+  font-size: 1.25rem;
+  opacity: 0.7;
+  text-wrap: wrap;
+  /* background-color: rebeccapurple; */
+  text-align: center;
+  /* margin-left: 5%;
     margin-right: 5%; */
-    /* border: 2px solid gold; */
-
+  /* border: 2px solid gold; */
 }
 
-.footer-icons{
-    display: flex;
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  /* background-color: rebeccapurple; */
+}
+
+.footer-icons svg {
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-icons svg:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 698px) {
+  .footer-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
-    cursor: pointer;
-    /* background-color: rebeccapurple; */
-}
-
-.footer-icons svg{
-    color: white;
-    transition: all 0.3s ease 0s;
-
-}
-
-.footer-icons svg:hover{
-    opacity: 0.7;
-}
-
-@media (max-width: 698px){
-    .footer-links {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 1rem; 
-      margin: 0 auto;
-      padding: 1rem;
-      /* border: 2px solid gold; */
-    }
+    margin: 0 auto;
+    padding: 1rem;
+    /* border: 2px solid gold; */
   }
+}
