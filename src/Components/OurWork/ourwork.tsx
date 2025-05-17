@@ -1,6 +1,5 @@
 // OurWork.tsx
 import "./ourwork.css";
-import PROJECTS from "../../data/projects.json";
 import EmblaCarousel from "./carousel";
 
 function OurWork() {

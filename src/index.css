@@ -5,6 +5,7 @@ html, body {
     background-color: black;
     font-family: Geist;
     color: white;
+    overflow-x: hidden;
   }
 
 
