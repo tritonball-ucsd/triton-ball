@@ -8,7 +8,7 @@ function OurWork() {
             <div className="ourwork-title">
                 <h1>OUR WORK</h1>
             </div>
-            <div className="section-title">
+            <div className="section-title" id='projects'>
                 <h2>
                     PROJECTS <span style={{ color: "gold", fontSize: "3rem", paddingLeft: "8px" }}>❯</span>
                 </h2>

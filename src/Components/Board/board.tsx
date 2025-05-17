@@ -6,7 +6,7 @@ import BoardCard from "./boardcard";
 function Board() {
   return (
     <>
-      <div className="board-title">
+      <div className="board-title" id="board">
         <div className="three-image">
           <img src={three} alt="Board visual" />
         </div>

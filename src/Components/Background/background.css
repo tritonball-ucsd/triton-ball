@@ -34,7 +34,7 @@
 }
 
 .image-block {
-  width: 35%;
+  width: 100%;
   border-radius: 1rem;
   max-width: 600px;
   height: auto;
@@ -133,11 +133,6 @@
 
 @media (max-width: 760px) {
   .section {
-    /* gap: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 20px 0px;
-    border: 2px solid gold; */
     flex-direction: column;
     align-items: center;
     margin: 15px 15px;
@@ -149,6 +144,7 @@
   }
 
   .text-block {
+    margin-top: -0.5rem;
     max-width: 350px;
     justify-content: center;
     padding-left: 4px;

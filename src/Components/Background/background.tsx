@@ -10,7 +10,7 @@ interface BackgroundProps {
 
 function Background({ imagePosition, image, player_image,title, text }: BackgroundProps) {
   return (
-    <div className={`section ${imagePosition === "right" ? "reverse" : ""}`}>
+    <div id='about' className={`section ${imagePosition === "right" ? "reverse" : ""}`}>
       <div className="image-block">
         <img src={image} alt="image" />
         <img className={`player-image${imagePosition==="right" ? "" : "-reverse"}`} src={player_image} alt="player"/>

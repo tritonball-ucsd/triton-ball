@@ -20,7 +20,7 @@ function App() {
     <Nav/>
       <Router>
         <Hero/>
-        <Background 
+        <Background
         imagePosition="right" 
         image={project1}
         player_image={soccer}
