@@ -4,7 +4,7 @@ import EmblaCarousel from "./carousel";
 
 function OurWork() {
   return (
-    <div className="ourwork">
+    <div className="ourwork" id="ourwork">
       <div className="ourwork-title">
         <h2>OUR WORK</h2>
       </div>

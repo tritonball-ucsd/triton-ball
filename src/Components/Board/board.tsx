@@ -3,6 +3,7 @@ import "./board.css";
 import three from "../../assets/3-sports.png";
 import BOARD from "../../data/board.json";
 import BoardCard from "./boardcard";
+import { motion } from "framer-motion";
 
 function Board() {
   const [activeTab, setActiveTab] = useState(0);
@@ -47,12 +48,22 @@ function Board() {
           ))}
         </div>
       )}
-
+      
       <div className="board-grid">
         {(isMobile ? visibleMembers : BOARD).map((member, index) => (
-          <BoardCard key={index} member={member} />
-        ))}
+        <motion.div
+        key={index}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
+        >
+          <BoardCard member={member} />
+        </motion.div>
+      ))}
       </div>
+
+
     </>
   );
 }

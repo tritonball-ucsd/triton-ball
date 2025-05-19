@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './hamburger.css';
 import Hamburger from 'hamburger-react';
+import { HashLink } from 'react-router-hash-link';
 
 interface HamburgerMenuProps {
   children: React.ReactNode;
@@ -23,28 +24,42 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ children }) => {
     };
   }, []);
 
+  const menuLinks = [
+    { to: '#about', label: 'About Us' },
+    { to: '#ourwork', label: 'Projects' },
+    { to: '#calendar', label: 'Calendar' },
+    { to: '#board', label: 'Board' },
+    { to: '#articles', label: 'Articles' },
+  ];
+
   return (
     <div className="hamburger-container">
       {isMobile ? (
         <>
           <div className="nav-pill">
-            <a className='tball' href="/">TBall</a>
+            <a className="tball" href="/">
+              TBall
+            </a>
             <div className="hamburger-button">
               <Hamburger toggled={isOpen} toggle={setIsOpen} size={20} color="#fff" />
             </div>
           </div>
-          
+
           {/* overlay menu */}
           {isOpen && (
             <div className="menu-overlay">
-              <button className="close-button" onClick={() => setIsOpen(false)}>✕</button>
+              <button className="close-button" onClick={() => setIsOpen(false)}>
+                ✕
+              </button>
               <div className="menu-content">
                 <ul className="menu-items">
-                  <li><a href="/about">About Us</a></li>
-                  <li><a href="/projects">Projects</a></li>
-                  <li><a href="/calendar">Calendar</a></li>
-                  <li><a href="/board">Board</a></li>
-                  <li><a href="/partners">Partners</a></li>
+                  {menuLinks.map(({ to, label }) => (
+                    <li key={to}>
+                      <HashLink smooth to={to} onClick={() => setIsOpen(false)}>
+                        {label}
+                      </HashLink>
+                    </li>
+                  ))}
                 </ul>
                 <div className="menu-cta">
                   <button>Join Us</button>
@@ -54,9 +69,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ children }) => {
           )}
         </>
       ) : (
-        <div className="desktop-menu">
-          {children}
-        </div>
+        <div className="desktop-menu">{children}</div>
       )}
     </div>
   );

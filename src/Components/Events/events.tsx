@@ -4,7 +4,7 @@ import soccer from "../../assets/soccer.png"
 function Events() {
     return (
         <div className="events-container">
-            <div className="events-title">
+            <div className="events-title" id='calendar'>
                 <div className="events-title-text-block">
                     <h1>Events</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quisquam quasi officiis consequatur adipisci sapiente aliquid id soluta maiores dolorum minus voluptatum dolore fugiat magni eum, possimus perferendis officia ipsam.</p>
