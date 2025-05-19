@@ -5,7 +5,7 @@
     text-align: center;
     margin-top: 15rem;
     margin-bottom: 10px;
-    font-size: 40px;
+    font-size: clamp(2rem, 3vw, 4rem);
     /* border: 2px solid gold; */
   }
   
