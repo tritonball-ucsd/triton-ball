@@ -6,10 +6,10 @@ import Testimonials from './Components/Testimonials/testimonials';
 import Events from './Components/Events/events';
 import { BrowserRouter as Router, Routes } from "react-router-dom";
 import Footer from './Components/Footer/Footer';
-import project1 from "./assets/walking-img.webp"
-import project2 from "./assets/dino-img.webp"
-import soccer from "./assets/soccer.png"
-import basketball from "./assets/basketball.png"
+import whoImg from "./assets/Background/Who-we-are.webp"
+import whatImg from "./assets/Background/What-we-do.webp"
+import soccer from "./assets/Vectors/soccer.png"
+import basketball from "./assets/Vectors/basketball.png"
 import Hero from './Components/Hero/Hero';
 import ContactUs from './Components/ContactUs/ContactUs';
 import Articles from './Components/Articles/Articles';
@@ -30,7 +30,7 @@ function App() {
         >
           <Background
             imagePosition="right"
-            image={project1}
+            image={whoImg}
             player_image={soccer}
             title="WHO WE ARE"
             text={[
@@ -48,7 +48,7 @@ function App() {
         >
           <Background
             imagePosition="left"
-            image={project2}
+            image={whatImg}
             player_image={basketball}
             title="WHAT WE DO"
             text={[

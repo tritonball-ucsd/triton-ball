@@ -1,5 +1,5 @@
 import './contact.css';
-import img1 from './../../assets/walking-img.webp'
+import contactUs from './../../assets/Background/ContactUs2.webp'
 
 export default function ContactUs() {
   return (
@@ -11,7 +11,7 @@ export default function ContactUs() {
       <div className="contact-section">
         <div className="contact-image">
           <div className="square"></div>
-          <img className='contactIMG1' src={img1} alt="img1" />
+          <img className='contactIMG1' src={contactUs} alt="img1" />
           <div className="square-reverse"></div>
 
         </div>

@@ -1,21 +1,21 @@
 [
     {
-      "image": "https://placehold.co/300x300",
+      "image": "src/assets/Projects/Basketball-Chart.webp",
       "title": "Basketball Shot Prediction",
       "description": "Using machine learning models to predict shot outcomes in college basketball games based on player positioning and game context."
     },
     {
-      "image": "https://placehold.co/300x300",
+      "image": "src/assets/Projects/PlayerRadar-Chart.webp",
       "title": "Soccer Player Heatmaps",
       "description": "Analyzing GPS tracking data to generate heatmaps showing player movement patterns across different matches."
     },
     {
-      "image": "https://placehold.co/300x300",
+      "image": "src/assets/Projects/project1.webp",
       "title": "Baseball Pitch Analysis",
       "description": "Building a visualization tool to compare pitch types, locations, and spin rates across pitchers in the league."
     },
     {
-      "image": "https://placehold.co/300x300",
+      "image": "src/assets/Projects/project2.webp",
       "title": "Football Play Classification",
       "description": "Applying deep learning to classify offensive plays in football using video footage and play-by-play data."
     },

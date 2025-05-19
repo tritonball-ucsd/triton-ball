@@ -11,7 +11,7 @@ interface BoardMember {
   function BoardCard({ member }: { member: BoardMember }) {
     return (
       <div className="board-card">
-        <img src={member.image} alt={member.name} />
+        <img src={member.image} alt={member.name} style={{ width: "225px", height: "225px", objectFit: "cover" }} />
         <h3>{member.name}</h3>
         <p>{member.year}, {member.major}</p>
         <p>{member.role}</p>

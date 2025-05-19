@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./board.css";
-import three from "../../assets/3-sports.png";
+import three from "../../assets/Vectors/3-sports.png";
 import BOARD from "../../data/board.json";
 import BoardCard from "./boardcard";
 import { motion } from "framer-motion";

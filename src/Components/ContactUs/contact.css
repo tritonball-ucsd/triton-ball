@@ -13,11 +13,14 @@
     width: min(90%, 500px);
     position: relative;
     transform: translateY(10%);
+    border-radius: 1rem;
 
   }
   
 .contactIMG1{
     width: 100%;
+    border-radius: 1rem;
+
 }
 .contact-form {
     flex: 1;
