@@ -80,7 +80,33 @@
 }
 
 
+.tab-controls {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  gap: 0.5rem;
+}
+
+.tab-controls button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ddd;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tab-controls .active-tab {
+  background-color: gold;
+  color: black;
+}
 
 
+@media (min-width: 768px) {
+  .tab-controls {
+    display: none;
+  }
+}
 
   

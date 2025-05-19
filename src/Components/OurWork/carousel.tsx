@@ -1,26 +1,39 @@
-import React, { useCallback, useEffect, useMemo, useState } from "react";
-import useEmblaCarousel from "embla-carousel-react";
-import AutoScroll from "embla-carousel-auto-scroll";
+import React, { useCallback, useEffect, useState, useMemo } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import AutoScroll from 'embla-carousel-auto-scroll';
 import {
   NextButton,
   PrevButton,
-  usePrevNextButtons,
-} from "./carouselbuttons";
-import Card from "../Card/card";
-import PROJECTS from "../../data/projects.json";
-import "./embla.css";
+  usePrevNextButtons
+} from './carouselbuttons';
+import './embla.css';
+import './ourwork.css';
+import Card from '../Card/card';
+import PROJECTS from '../../data/projects.json';
 
 const EmblaCarousel: React.FC = () => {
-  const autoScroll = useMemo(() => AutoScroll({ playOnInit: true }), []);
-  const options = useMemo(() => ({ loop: true }), []);
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [autoScroll]);
+  // 👇 Responsive: check for mobile view
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  // 👇 Only autoplay on non-mobile screens
+  const autoScroll = useMemo(() => AutoScroll({ playOnInit: !isMobile }), [isMobile]);
+
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [autoScroll]);
   const [isPlaying, setIsPlaying] = useState(false);
 
   const {
     prevBtnDisabled,
     nextBtnDisabled,
     onPrevButtonClick,
-    onNextButtonClick,
+    onNextButtonClick
   } = usePrevNextButtons(emblaApi);
 
   const onButtonAutoplayClick = useCallback(
@@ -55,15 +68,9 @@ const EmblaCarousel: React.FC = () => {
 
     setIsPlaying(autoScroll.isPlaying());
     emblaApi
-      .on("autoScroll:play", () => setIsPlaying(true))
-      .on("autoScroll:stop", () => setIsPlaying(false))
-      .on("reInit", () => setIsPlaying(autoScroll.isPlaying()));
-
-    return () => {
-      emblaApi?.off("autoScroll:play", () => setIsPlaying(true));
-      emblaApi?.off("autoScroll:stop", () => setIsPlaying(false));
-      emblaApi?.off("reInit", () => setIsPlaying(autoScroll.isPlaying()));
-    };
+      .on('autoScroll:play', () => setIsPlaying(true))
+      .on('autoScroll:stop', () => setIsPlaying(false))
+      .on('reInit', () => setIsPlaying(autoScroll.isPlaying()));
   }, [emblaApi]);
 
   return (
@@ -95,7 +102,7 @@ const EmblaCarousel: React.FC = () => {
         </div>
 
         <button className="embla__play" onClick={toggleAutoplay} type="button">
-          {isPlaying ? "Stop" : "Start"}
+          {isPlaying ? 'Stop' : 'Start'}
         </button>
       </div>
     </div>
