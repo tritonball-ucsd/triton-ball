@@ -6,11 +6,11 @@ function OurWork() {
   return (
     <div className="ourwork">
       <div className="ourwork-title">
-        <h1>OUR WORK</h1>
+        <h2>OUR WORK</h2>
       </div>
       <div className="section-title">
         <h2>
-          PROJECTS <span style={{ color: "gold", fontSize: "3rem", paddingLeft: "8px" }}>❯</span>
+          PROJECTS <span style={{ color: "#F3B818", fontSize: "3rem", paddingLeft: "8px" }}>❯</span>
         </h2>
       </div>
       <EmblaCarousel/>

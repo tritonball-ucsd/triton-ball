@@ -1,0 +1,44 @@
+.articles-section{
+    margin-top: 10%;
+}
+
+
+.article-container{
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding: 0 5rem;
+  }
+
+
+  .article-title {
+    text-align: start;
+    font-size: 2rem;
+    padding-left: 2rem;
+    
+  }
+  
+
+.articleSubtitle{
+    margin-top: -2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+    font-weight: 300;
+    /* border: 2px solid red; */
+    width: fit-content;
+
+}
+
+
+@media (max-width: 564px){
+  .article-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    flex-wrap: wrap;
+  }
+}

@@ -1,9 +1,14 @@
+.background-section{
+  margin-top: 10%;
+}
+
+
 .section {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  gap: 110px;
+  gap: 7rem;
   margin-top: 15px;
   margin-bottom: 30px;
   padding: 40px 0px;
@@ -58,7 +63,7 @@
   bottom: -30px;
   left: -30px;
   position: absolute;
-  background-color: blue;
+  background-color: #11284A;
   z-index: -1;
 }
 
@@ -68,7 +73,7 @@
   top: -30px;
   right: -30px;
   position: absolute;
-  background-color: yellow;
+  background-color: #F3B818;
   z-index: -1;
 }
 
