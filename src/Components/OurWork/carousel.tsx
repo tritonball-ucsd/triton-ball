@@ -11,7 +11,7 @@ import PROJECTS from "../../data/projects.json";
 import "./embla.css";
 
 const EmblaCarousel: React.FC = () => {
-  const autoScroll = useMemo(() => AutoScroll({ playOnInit: false }), []);
+  const autoScroll = useMemo(() => AutoScroll({ playOnInit: true }), []);
   const options = useMemo(() => ({ loop: true }), []);
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [autoScroll]);
   const [isPlaying, setIsPlaying] = useState(false);
