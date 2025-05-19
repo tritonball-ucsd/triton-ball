@@ -4,28 +4,28 @@
       "year": "Junior",
       "major": "Computer Science",
       "role": "Analytics",
-      "image": "https://placehold.co/225x225"
+      "image": "src/assets/Board/Cochran.webp"
     },
     {
       "name": "Name Lastname",
       "year": "Senior",
       "major": "Data Science",
       "role": "Analytics",
-      "image": "https://placehold.co/225x225"
+      "image": "src/assets/Board/Jack.webp"
     },
     {
       "name": "Name Lastname",
       "year": "Sophomore",
       "major": "Mathematics",
       "role": "Analytics",
-      "image": "https://placehold.co/225x225"
+      "image": "src/assets/Board/Board3.webp"
     },
     {
       "name": "Name Lastname",
       "year": "Junior",
       "major": "Economics",
       "role": "Analytics",
-      "image": "https://placehold.co/225x225"
+      "image": "src/assets/Board/Board4.webp"
     },
     {
       "name": "Name Lastname",

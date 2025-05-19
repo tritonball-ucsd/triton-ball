@@ -1,5 +1,5 @@
 import "./events.css"
-import soccer from "../../assets/soccer.png"
+import soccer from "../../assets/Vectors/soccer.png"
 
 function Events() {
     return (
