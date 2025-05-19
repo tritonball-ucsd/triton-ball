@@ -57,8 +57,8 @@
 
 .events-calendar {
     width: 100%;
-    max-width: 650px;
-    aspect-ratio: 1.2 / 1;
+    max-width: 850px;
+    aspect-ratio: 1.6 / 1;
     margin: 0.5rem auto;
     /* border: 2px solid gold; */
     /* border-radius: 1rem; */
@@ -84,7 +84,7 @@
   }
   
   
-  @media (max-width: 768px) {
+  @media (max-width: 860px) {
     .events-calendar {
       width: 95%;
       max-width: none;

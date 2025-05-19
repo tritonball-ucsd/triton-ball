@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./board.css";
 import three from "../../assets/3-sports.png";
 import BOARD from "../../data/board.json";
