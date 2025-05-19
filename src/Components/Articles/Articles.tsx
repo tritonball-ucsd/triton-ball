@@ -12,7 +12,7 @@ export default function Articles() {
       <h5 className='articleSubtitle'>Create a Medium account now to join our team and add your own articles</h5>
     </div>
     
-    <div className="article-container">
+    <div className="article-container" id='articles'>
         {ARTICLES.map((project, index) => (
         <div className="article-card" key={index}>
             <Card

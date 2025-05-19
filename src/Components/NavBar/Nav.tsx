@@ -1,6 +1,8 @@
 import './nav.css'
 import { useState, useEffect } from 'react';
 import HamburgerMenu from './../Hamburger/HamburgerMenu';
+import { HashLink} from 'react-router-hash-link';
+
 
 
 function Nav() {
@@ -27,12 +29,12 @@ function Nav() {
       <HamburgerMenu>
         <ul className='navbar-links'>
           <div className="grey-box">
-            <li ><a className='tball' href="/">TBall</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="/calendar">Calendar</a></li>
-            <li><a href="#board">Board</a></li>
-            <li><a href="/partners">Partners</a></li>
+            <li ><HashLink className='tball' smooth to="#root">TBall</HashLink></li>
+            <li><HashLink smooth to="#about">About Us</HashLink></li>
+            <li><HashLink smooth to="#ourwork">Projects</HashLink></li>
+            <li><HashLink smooth to="#calendar">Calendar</HashLink></li>
+            <li><HashLink smooth to="#board">Board</HashLink></li>
+            <li><HashLink smooth to="#articles">Articles</HashLink></li>
             <button>Join Us</button>
           </div>
         </ul>
