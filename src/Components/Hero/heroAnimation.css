@@ -1,0 +1,33 @@
+
+.curtain {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: black; 
+    z-index: 5; 
+    transition: transform 1.5s ease;
+  }
+  
+  .top-curtain {
+    top: 0;
+    height: 50%;
+    transform-origin: center right; 
+    transform: translateX(0);
+  }
+  
+  .bottom-curtain {
+    bottom: 0;
+    height: 50%;
+    transform-origin: center left; 
+    transform: translateX(0);
+  }
+  
+  
+  .video-container.revealed .top-curtain {
+    transform: translateX(-100%);
+  }
+  
+  .video-container.revealed .bottom-curtain {
+    transform: translateX(100%);
+  }
+  

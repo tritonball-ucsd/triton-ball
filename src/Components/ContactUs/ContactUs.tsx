@@ -7,9 +7,13 @@ export default function ContactUs() {
     <section className='sectionContact'>
       <h2 className="contact-title">Contact Us</h2>
       
+      
       <div className="contact-section">
         <div className="contact-image">
+          <div className="square"></div>
           <img className='contactIMG1' src={img1} alt="img1" />
+          <div className="square-reverse"></div>
+
         </div>
 
         <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
