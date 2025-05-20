@@ -7,7 +7,8 @@ function Events() {
             <div className="events-title" id='calendar'>
                 <div className="events-title-text-block">
                     <h1>Events</h1>
-                    <p>Lorems is a really weird word ipsum dolor sit amet consectetur adipisicing elit. Laudantium quisquam quasi officiis consequatur adipisci sapiente aliquid id soluta maiores dolorum minus voluptatum dolore fugiat magni eum, possimus perferendis officia ipsam.</p>
+                    <p>Check out our upcoming meetings, speaker sessions, and project showcases on the calendar below—and join us as we dive into the numbers behind the games!</p>
+                    <p>👇 Stay up to date with our Google Calendar:</p>
                 </div>
                 <img src={soccer} alt="soccer" />
             </div>
