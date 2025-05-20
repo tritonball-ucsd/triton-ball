@@ -1,0 +1,37 @@
+name: Sync with Upstream
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # Every day at 2am UTC
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      - name: Add upstream and fetch
+        run: |
+          git remote add upstream https://github.com/ORIGINAL_OWNER/REPO_NAME.git
+          git fetch upstream
+
+      - name: Merge upstream/main into fork/main
+        run: |
+          git checkout main
+          git merge upstream/main --allow-unrelated-histories -m "Auto-merge upstream changes"
+      
+      - name: Push changes to fork
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push https://x-access-token:${TOKEN}@github.com/${{ github.repository }}.git main
