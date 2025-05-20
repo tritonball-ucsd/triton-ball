@@ -1,59 +1,37 @@
 [
-    {
-      "name": "Name Lastname",
-      "year": "Junior",
-      "major": "Computer Science",
-      "role": "Analytics",
-      "image": "/triton-ball/Board/Cochran.webp"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Senior",
-      "major": "Data Science",
-      "role": "Analytics",
-      "image": "/triton-ball/Board/Jack.webp"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Sophomore",
-      "major": "Mathematics",
-      "role": "Analytics",
-      "image": "/triton-ball/Board/Board3.webp"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Junior",
-      "major": "Economics",
-      "role": "Analytics",
-      "image": "/triton-ball/Board/Board4.webp"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Freshman",
-      "major": "Cognitive Science",
-      "role": "Analytics",
-      "image": "https://placehold.co/225x225"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Senior",
-      "major": "Computer Engineering",
-      "role": "Analytics",
-      "image": "https://placehold.co/225x225"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Junior",
-      "major": "Statistics",
-      "role": "Analytics",
-      "image": "https://placehold.co/225x225"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Senior",
-      "major": "Business",
-      "role": "Analytics",
-      "image": "https://placehold.co/225x225"
-    }
+  {
+    "name": "Zach Cochran",
+    "year": "Sophomore",
+    "major": "Data Science",
+    "role": "President",
+    "image": "/triton-ball/Board/Cochran.webp"
+  },
+  {
+    "name": "Jack Kalsched",
+    "year": "Sophomore",
+    "major": "Statistics / Data Science Minor",
+    "role": "VP - Operations",
+    "image": "/triton-ball/Board/Jack.webp"
+  },
+  {
+    "name": "Alex Frederick",
+    "year": "Sophomore",
+    "major": "Data Science and Math-Econ",
+    "role": "VP - Online Content",
+    "image": "/triton-ball/Board/Board4.webp"
+  },
+  {
+    "name": "Sanjit Sathish",
+    "year": "Sophomore",
+    "major": "Data Science",
+    "role": "VP - External Affairs",
+    "image": "/triton-ball/Board/Board3.webp"
+  },
+  {
+    "name": "Bradley Voytek",
+    "year": "Professor",
+    "major": "Cognitive Science",
+    "role": "Faculty Advisor",
+    "image": "/triton-ball/Board/Voytek.webp"
+  }
 ]
-  
