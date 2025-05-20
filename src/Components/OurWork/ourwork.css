@@ -2,35 +2,43 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  /* margin-top: 100px; */
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  margin: 4rem 0 2rem 0;
+  padding: 0.25rem 0;
+  line-height: 1.1;
+  /* border: 2px solid gold; */
+}
+
+.section-title {
+  text-align: start;
+  font-size: 1.5rem;
+  padding: 0.25rem clamp(1rem, 2vw, 2rem);
+  margin: 0;
+  line-height: 1.1;
+}
+
+/* Reset margins/paddings on h2 to remove built-in spacing */
+.ourwork-title h2,
+.section-title h2 {
+  margin: 0;
   padding: 0;
-  font-size: clamp(2rem, 3vw, 4rem);
-  margin-bottom: clamp(2rem, 3vw, 4rem);
+  line-height: 1.1;
 }
 
-
-.section-title{
-    text-align: start;
-    font-size: 2rem;
-    padding-left: clamp(2rem, 3vw, 4rem);
-    /* border: 2px solid gold; */
-}
-
-  @media (max-width: 480px) {
-
-    .title{
-      font-size: 26px;
-      margin-bottom: 30px;
-      margin-top: 100px;
-    }
-    .section-title{
-      font-size: 20px;
-      padding-left: 0px;
-      text-align: center;
-    }
+/* Optional: make spacing tighter on small screens */
+@media (max-width: 480px) {
+  .ourwork-title {
+    font-size: 22px;
+    padding: 0.2rem 0;
   }
 
+  .section-title {
+    font-size: 18px;
+    padding: 0.2rem 0;
+    text-align: center;
+  }
 
-  
-
-
+  .section-title h2 span {
+    font-size: 2rem; /* scale down the arrow */
+  }
+}

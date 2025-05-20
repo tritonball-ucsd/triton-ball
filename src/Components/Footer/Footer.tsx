@@ -14,8 +14,12 @@ function Footer() {
             <img className="logo2" src={logo2} alt="" />
             <p className='footer-title'>Created by Data Science Student Society @ UC San Diego</p>
             <div className="footer-icons">
+              <a href="https://www.instagram.com/tritonball_ucsd/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={'2rem'} />
+              </a>
+              <a href="https://discord.com/invite/JcTP2xXBej" target="_blank" rel="noopener noreferrer">
                 <FaDiscord size={'2rem'}/>
+              </a>
                 <FaMedium size={'2rem'}/>
             </div>
         </ul>

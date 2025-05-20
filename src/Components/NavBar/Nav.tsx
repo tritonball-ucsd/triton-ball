@@ -32,9 +32,9 @@ function Nav() {
             <li ><HashLink className='tball' smooth to="#root">TBall</HashLink></li>
             <li><HashLink smooth to="#about">About Us</HashLink></li>
             <li><HashLink smooth to="#ourwork">Projects</HashLink></li>
+            <li><HashLink smooth to="#articles">Articles</HashLink></li>
             <li><HashLink smooth to="#calendar">Calendar</HashLink></li>
             <li><HashLink smooth to="#board">Board</HashLink></li>
-            <li><HashLink smooth to="#articles">Articles</HashLink></li>
             <button onClick={() => window.open('https://linktr.ee/tritonball', '_blank')}>Join Us</button>
           </div>
         </ul>

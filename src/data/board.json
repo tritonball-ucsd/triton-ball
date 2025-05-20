@@ -5,35 +5,35 @@
     "year": "Sophomore",
     "major": "Data Science",
     "role": "President",
-    "image": "/triton-ball/Board/Cochran.webp"
+    "image": "../../public/Board/Cochran.webp"
   },
   {
     "name": "Jack Kalsched",
     "year": "Sophomore",
     "major": "Statistics / Data Science Minor",
     "role": "VP - Operations",
-    "image": "/triton-ball/Board/Jack.webp"
+    "image": "../../Board/Jack.webp"
   },
   {
     "name": "Alex Frederick",
     "year": "Sophomore",
     "major": "Data Science and Math-Econ",
     "role": "VP - Online Content",
-    "image": "/triton-ball/Board/Board4.webp"
+    "image": "../../Board/Board4.webp"
   },
   {
     "name": "Sanjit Sathish",
     "year": "Sophomore",
     "major": "Data Science",
     "role": "VP - External Affairs",
-    "image": "/triton-ball/Board/Board3.webp"
+    "image": "../../Board/Board3.webp"
   },
   {
     "name": "Bradley Voytek",
     "year": "Professor",
     "major": "Cognitive Science",
     "role": "Faculty Advisor",
-    "image": "/triton-ball/Board/Voytek.webp"
+    "image": "../../Board/Voytek.webp"
   }
 
 ]
