@@ -12,7 +12,7 @@ function Footer() {
     <footer>
         <ul className='footer-links'>
             <img className="logo2" src={logo2} alt="" />
-            <p className='footer-title'>Created by <strong>Ishayu</strong> & <strong>Shamita</strong> @ Data Science Student Society</p>
+            <p className='footer-title'>Created by Data Science Student Society @ UC San Diego</p>
             <div className="footer-icons">
                 <FaInstagram size={'2rem'} />
                 <FaDiscord size={'2rem'}/>

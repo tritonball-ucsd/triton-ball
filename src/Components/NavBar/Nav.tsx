@@ -35,7 +35,7 @@ function Nav() {
             <li><HashLink smooth to="#calendar">Calendar</HashLink></li>
             <li><HashLink smooth to="#board">Board</HashLink></li>
             <li><HashLink smooth to="#articles">Articles</HashLink></li>
-            <button>Join Us</button>
+            <button onClick={() => window.open('https://linktr.ee/tritonball', '_blank')}>Join Us</button>
           </div>
         </ul>
       </HamburgerMenu>
