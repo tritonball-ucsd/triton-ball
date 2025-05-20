@@ -14,7 +14,7 @@ function Events() {
             <div className="events-calendar">
                 <div className="calendar-clipper">
                     <iframe
-                    src="https://calendar.google.com/calendar/embed?src=tritonballtest%40gmail.com&ctz=America%2FLos_Angeles"
+                    src={import.meta.env.VITE_CALENDAR_API_KEY}
                     style={{ border: 0 }}
                     width="100%"
                     height="100%"
