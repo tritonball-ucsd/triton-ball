@@ -7,7 +7,7 @@ function Events() {
             <div className="events-title" id='calendar'>
                 <div className="events-title-text-block">
                     <h1>Events</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quisquam quasi officiis consequatur adipisci sapiente aliquid id soluta maiores dolorum minus voluptatum dolore fugiat magni eum, possimus perferendis officia ipsam.</p>
+                    <p>Lorems is a really weird word ipsum dolor sit amet consectetur adipisicing elit. Laudantium quisquam quasi officiis consequatur adipisci sapiente aliquid id soluta maiores dolorum minus voluptatum dolore fugiat magni eum, possimus perferendis officia ipsam.</p>
                 </div>
                 <img src={soccer} alt="soccer" />
             </div>
@@ -18,8 +18,6 @@ function Events() {
                     style={{ border: 0 }}
                     width="100%"
                     height="100%"
-                    frameBorder="0"
-                    scrolling="no"
                     ></iframe>
                 </div>
                 </div>
