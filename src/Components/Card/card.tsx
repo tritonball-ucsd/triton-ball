@@ -10,7 +10,7 @@ interface CardProps {
 const Card = React.memo((props: CardProps) => {
   return (
     <div className="card">
-      <img src={props.image} alt={props.title} loading="lazy" />
+      <img src={`${import.meta.env.BASE_URL}${props.image}`} alt={props.title} />
       <div className="card-text-block">
         <h2>{props.title}</h2>
         <p>{props.description}</p>

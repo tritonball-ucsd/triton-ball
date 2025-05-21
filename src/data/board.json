@@ -1,38 +1,39 @@
 [
-    {
-      "name": "Name Lastname",
-      "year": "Junior",
-      "major": "Computer Science",
-      "role": "Analytics",
-      "image": "/Board/Cochran.webp"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Senior",
-      "major": "Data Science",
-      "role": "Analytics",
-      "image": "/Board/Jack.webp"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Sophomore",
-      "major": "Mathematics",
-      "role": "Analytics",
-      "image": "/Board/Board3.webp"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Junior",
-      "major": "Economics",
-      "role": "Analytics",
-      "image": "/Board/Board4.webp"
-    },
-    {
-      "name": "Name Lastname",
-      "year": "Freshman",
-      "major": "Cognitive Science",
-      "role": "Analytics",
-      "image": "https://placehold.co/225x225"
-    }
+
+  {
+    "name": "Zach Cochran",
+    "year": "Sophomore",
+    "major": "Data Science",
+    "role": "President",
+    "image": "Board/Cochran.webp"
+  },
+  {
+    "name": "Jack Kalsched",
+    "year": "Sophomore",
+    "major": "Statistics / Data Science Minor",
+    "role": "VP - Operations",
+    "image": "Board/Jack.webp"
+  },
+  {
+    "name": "Alex Frederick",
+    "year": "Sophomore",
+    "major": "Data Science and Math-Econ",
+    "role": "VP - Online Content",
+    "image": "Board/Board4.webp"
+  },
+  {
+    "name": "Sanjit Sathish",
+    "year": "Sophomore",
+    "major": "Data Science",
+    "role": "VP - External Affairs",
+    "image": "Board/Board3.webp"
+  },
+  {
+    "name": "Bradley Voytek",
+    "year": "Professor",
+    "major": "Cognitive Science",
+    "role": "Faculty Advisor",
+    "image": "Board/Voytek.webp"
+  }
+
 ]
-  

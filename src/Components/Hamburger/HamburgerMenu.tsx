@@ -27,9 +27,9 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ children }) => {
   const menuLinks = [
     { to: '#about', label: 'About Us' },
     { to: '#ourwork', label: 'Projects' },
+    { to: '#articles', label: 'Articles' },
     { to: '#calendar', label: 'Calendar' },
     { to: '#board', label: 'Board' },
-    { to: '#articles', label: 'Articles' },
   ];
 
   return (
