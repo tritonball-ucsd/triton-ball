@@ -2,7 +2,7 @@ name: Sync with Upstream
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Every day at 2am UTC
+    - cron: '0 15 * * *'  # Every day at 7am PST (15:00 UTC)
   workflow_dispatch:      # Allow manual trigger
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Add upstream and fetch
         run: |
-          git remote add upstream https://github.com/ORIGINAL_OWNER/REPO_NAME.git
+          git remote add upstream https://github.com/ucsdds3/triton-ball.git
           git fetch upstream
 
       - name: Merge upstream/main into fork/main
