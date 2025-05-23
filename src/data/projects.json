@@ -15,9 +15,9 @@
       "description": "Building a visualization tool to compare pitch types, locations, and spin rates across pitchers in the league."
     },
     {
-      "image": "Projects/project1.webp",
-      "title": "Football Play Classification",
-      "description": "Applying deep learning to classify offensive plays in football using video footage and play-by-play data."
+      "image": "Projects/shotMap.webp",
+      "title": "Opponent Shot and Chance Analysis",
+      "description": "Collected, analyzed, and visualized the spatial distribution of opponents shots and chance origins."
     },
     {
       "image": "Projects/Basketball-Chart.webp",
@@ -35,9 +35,9 @@
       "description": "Building a visualization tool to compare pitch types, locations, and spin rates across pitchers in the league."
     },
     {
-      "image": "Projects/project1.webp",
-      "title": "Football Play Classification",
-      "description": "Applying deep learning to classify offensive plays in football using video footage and play-by-play data."
+      "image": "Projects/shotMap.webp",
+      "title": "Opponent Shot and Chance Analysis",
+      "description": "Collected, analyzed, and visualized the spatial distribution of opponents shots and chance origins."
     }
   ]
   
