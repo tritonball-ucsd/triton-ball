@@ -1,16 +1,16 @@
 [
     {
-        "image": "TB-logo1.svg",
+        "image": "../src/assets/TB-logo1.svg",
         "title": "Coming Soon..",
         "description": "Follow us on Medium for notifications when our first article is released, and join our Discord for additional alerts."
       },
       {
-        "image": "TB-logo1.svg",
+        "image": "../src/assets/TB-logo1.svg",
         "title": "Coming Soon..",
         "description": "Follow us on Medium for notifications when our first article is released, and join our Discord for additional alerts."
       },
       {
-        "image": "TB-logo1.svg",
+        "image": "../src/assets/TB-logo1.svg",
         "title": "Coming Soon..",
         "description": "Follow us on Medium for notifications when our first article is released, and join our Discord for additional alerts."
       }
