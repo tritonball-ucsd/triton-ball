@@ -6,16 +6,16 @@
     },
     {
       "image": "Projects/PlayerRadar-Chart.webp",
-      "title": "Soccer Player Heatmaps",
-      "description": "Analyzing GPS tracking data to generate heatmaps showing player movement patterns across different matches."
+      "title": "Play Style Analysis",
+      "description": "Analyzing player statistics across the league in relation to position."
     },
     {
-      "image": "Projects/project1.webp",
+      "image": "Projects/project2.webp",
       "title": "Baseball Pitch Analysis",
       "description": "Building a visualization tool to compare pitch types, locations, and spin rates across pitchers in the league."
     },
     {
-      "image": "Projects/project2.webp",
+      "image": "Projects/project1.webp",
       "title": "Football Play Classification",
       "description": "Applying deep learning to classify offensive plays in football using video footage and play-by-play data."
     },
@@ -26,16 +26,16 @@
     },
     {
       "image": "Projects/PlayerRadar-Chart.webp",
-      "title": "Soccer Player Heatmaps",
-      "description": "Analyzing GPS tracking data to generate heatmaps showing player movement patterns across different matches."
+      "title": "Play Style Analysis",
+      "description": "Analyzing player statistics across the league in relation to position."
     },
     {
-      "image": "Projects/project1.webp",
+      "image": "Projects/project2.webp",
       "title": "Baseball Pitch Analysis",
       "description": "Building a visualization tool to compare pitch types, locations, and spin rates across pitchers in the league."
     },
     {
-      "image": "Projects/project2.webp",
+      "image": "Projects/project1.webp",
       "title": "Football Play Classification",
       "description": "Applying deep learning to classify offensive plays in football using video footage and play-by-play data."
     }
