@@ -28,7 +28,7 @@ jobs:
       - name: Merge upstream/main into fork/main
         run: |
           git checkout main
-          git merge upstream/main --allow-unrelated-histories -m "Auto-merge upstream changes"
+          git merge -X theirs upstream/main --allow-unrelated-histories -m "Auto-merge upstream changes"
       
       - name: Push changes to fork
         env:
