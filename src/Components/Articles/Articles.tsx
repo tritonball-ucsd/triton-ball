@@ -9,7 +9,7 @@ export default function Articles() {
       <h2>
         ARTICLES <span style={{ color: "#11284A", fontSize: "3rem", paddingLeft: "8px" }}>❯</span>
       </h2>
-      <h5 className='articleSubtitle'>Create a Medium account now to join our team and add your own articles</h5>
+      <h5 className='articleSubtitle'>Create a Medium account to join our team and add your own articles</h5>
     </div>
     
     <div className="article-container">
