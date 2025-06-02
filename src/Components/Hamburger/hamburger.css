@@ -17,12 +17,8 @@
     margin: 1rem auto;
   }
   
-  .nav-pill .tball {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 600;
-    font-style: italic;
+  .nav-pill .tball, .nav-pill img{
+    height: clamp(4rem, 6vw, 6rem);
   }
   
   .hamburger-button {
