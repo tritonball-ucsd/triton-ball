@@ -1,15 +1,11 @@
-import React, { useCallback, useEffect, useState, useMemo } from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
-import AutoScroll from 'embla-carousel-auto-scroll';
-import {
-  NextButton,
-  PrevButton,
-  usePrevNextButtons
-} from './carouselbuttons';
-import './embla.css';
-import './ourwork.css';
-import Card from '../Card/card';
-import PROJECTS from '../../data/projects.json';
+import React, { useCallback, useEffect, useState, useMemo } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import AutoScroll from "embla-carousel-auto-scroll";
+import { NextButton, PrevButton, usePrevNextButtons } from "./carouselbuttons";
+import "./embla.css";
+import "./ourwork.css";
+import Card from "../Card/card";
+import PROJECTS from "../../data/projects.json";
 
 const EmblaCarousel: React.FC = () => {
   // 👇 Responsive: check for mobile view
@@ -19,22 +15,18 @@ const EmblaCarousel: React.FC = () => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   // 👇 Only autoplay on non-mobile screens
-  const autoScroll = useMemo(() => AutoScroll({ playOnInit: !isMobile }), [isMobile]);
+  const autoScroll = useMemo(() => AutoScroll({ playOnInit: !isMobile, speed: 1.1 }), [isMobile]);
 
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [autoScroll]);
   const [isPlaying, setIsPlaying] = useState(false);
 
-  const {
-    prevBtnDisabled,
-    nextBtnDisabled,
-    onPrevButtonClick,
-    onNextButtonClick
-  } = usePrevNextButtons(emblaApi);
+  const { prevBtnDisabled, nextBtnDisabled, onPrevButtonClick, onNextButtonClick } =
+    usePrevNextButtons(emblaApi);
 
   const onButtonAutoplayClick = useCallback(
     (callback: () => void) => {
@@ -42,9 +34,7 @@ const EmblaCarousel: React.FC = () => {
       if (!autoScroll) return;
 
       const resetOrStop =
-        autoScroll.options.stopOnInteraction === false
-          ? autoScroll.reset
-          : autoScroll.stop;
+        autoScroll.options.stopOnInteraction === false ? autoScroll.reset : autoScroll.stop;
 
       resetOrStop();
       callback();
@@ -56,9 +46,7 @@ const EmblaCarousel: React.FC = () => {
     const autoScroll = emblaApi?.plugins()?.autoScroll;
     if (!autoScroll) return;
 
-    const playOrStop = autoScroll.isPlaying()
-      ? autoScroll.stop
-      : autoScroll.play;
+    const playOrStop = autoScroll.isPlaying() ? autoScroll.stop : autoScroll.play;
     playOrStop();
   }, [emblaApi]);
 
@@ -68,9 +56,9 @@ const EmblaCarousel: React.FC = () => {
 
     setIsPlaying(autoScroll.isPlaying());
     emblaApi
-      .on('autoScroll:play', () => setIsPlaying(true))
-      .on('autoScroll:stop', () => setIsPlaying(false))
-      .on('reInit', () => setIsPlaying(autoScroll.isPlaying()));
+      .on("autoScroll:play", () => setIsPlaying(true))
+      .on("autoScroll:stop", () => setIsPlaying(false))
+      .on("reInit", () => setIsPlaying(autoScroll.isPlaying()));
   }, [emblaApi]);
 
   return (
@@ -79,11 +67,7 @@ const EmblaCarousel: React.FC = () => {
         <div className="embla__container">
           {PROJECTS.map((project, index) => (
             <div className="embla__slide" key={index}>
-              <Card
-                image={project.image}
-                title={project.title}
-                description={project.description}
-              />
+              <Card image={project.image} title={project.title} description={project.description} />
             </div>
           ))}
         </div>
@@ -102,7 +86,7 @@ const EmblaCarousel: React.FC = () => {
         </div>
 
         <button className="embla__play" onClick={toggleAutoplay} type="button">
-          {isPlaying ? 'Stop' : 'Start'}
+          {isPlaying ? "Stop" : "Start"}
         </button>
       </div>
     </div>

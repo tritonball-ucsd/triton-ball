@@ -37,9 +37,7 @@ const HamburgerMenu: React.FC<HamburgerMenuProps> = ({ children }) => {
       {isMobile ? (
         <>
           <div className="nav-pill">
-            <a className="tball" href="/">
-              TBall
-            </a>
+            <HashLink className="tball" smooth to="#root"><img src="/TB-logo1.svg" /></HashLink>
             <div className="hamburger-button">
               <Hamburger toggled={isOpen} toggle={setIsOpen} size={20} color="#fff" />
             </div>
