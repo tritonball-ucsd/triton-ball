@@ -16,7 +16,7 @@ export default function ContactUs() {
         <form
           className="contact-form"
           target="_blank"
-          action="https://formsubmit.co/0e21a47db5d2ad62468688ddd884a595"
+          action="https://formsubmit.co/tritonball@ucsd.edu"
           method="POST"
         >
           {["Name", "Email", "Subject"].map((label, index) => (
