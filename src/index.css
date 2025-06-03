@@ -4,9 +4,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  font-family: Geist;
+
   color: white;
   overflow-x: hidden;
+}
+* {
+  font-family: Geist;
 }
 #root {
   /* I DO NOT KNOW WHY THIS WORKS IT JUST DOES DONT CHANGE IT */
