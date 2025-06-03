@@ -1,5 +1,5 @@
 import "./contact.css";
-import contactUs from "./../../assets/Background/ContactUs2.webp";
+import contactUs from "./../../assets/Background/ContactUs3.webp";
 
 export default function ContactUs() {
   return (

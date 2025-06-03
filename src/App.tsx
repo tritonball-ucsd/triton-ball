@@ -52,8 +52,8 @@ function App() {
             player_image={basketball}
             title="WHAT WE DO"
             text={[
-              "We work with UCSD’s athletic teams to turn data into insights. Our work spans sports from baseball to soccer to basketball, with projects ranging from short-term scouting to long-term player development and in-game strategy.",
-              "Outside of team projects, we host workshops, discussions, and competitions to help students explore and grow in the field of sports analytics."
+              "We collaborate with UC San Diego’s athletic teams to transform data into actionable insights. Our work spans a wide range of sports—including baseball, soccer, basketball, and volleyball—and covers everything from short-term scouting reports to long-term player development and in-game strategy.\
+              Beyond team collaborations, we offer workshops, speaker events, and competitions designed to help students explore, learn, and grow within the dynamic field of sports analytics."
             ]}
           />
         </motion.div>
