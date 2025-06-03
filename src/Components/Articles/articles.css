@@ -43,3 +43,16 @@
     flex-wrap: wrap;
   }
 }
+
+#medium-link {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+#medium-link:hover {
+  color: #ccc; /* Change to your preferred hover color */
+  text-decoration: underline;
+}

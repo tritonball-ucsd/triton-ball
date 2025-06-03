@@ -20,7 +20,10 @@ function Footer() {
               <a href="https://discord.com/invite/JcTP2xXBej" target="_blank" rel="noopener noreferrer">
                 <FaDiscord size={'2rem'}/>
               </a>
+              <a href="https://medium.com/@tritonball" target="_blank" rel="noopener noreferrer">
                 <FaMedium size={'2rem'}/>
+              </a>
+                
             </div>
         </ul>
     </footer>

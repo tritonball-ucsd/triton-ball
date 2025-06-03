@@ -9,7 +9,8 @@ export default function Articles() {
       <h2>
         ARTICLES <span style={{ color: "#11284A", fontSize: "3rem", paddingLeft: "8px" }}>❯</span>
       </h2>
-      <h5 className='articleSubtitle'>Create a Medium account to join our team and add your own articles</h5>
+      <h5 className='articleSubtitle'>Follow Triton Ball on <a id="medium-link" href="https://medium.com/@tritonball" target="_blank" rel="noopener noreferrer">Medium</a> to see articles written by members! Create a Medium account to join our team and add your own articles</h5>
+      <h5 className='articleSubtitle'>Check out the featured articles for the quarter below!</h5>
     </div>
     
     <div className="article-container">
