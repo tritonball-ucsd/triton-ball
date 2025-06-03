@@ -56,32 +56,36 @@
 }
 
 .events-calendar {
-    width: 100%;
-    max-width: 850px;
-    aspect-ratio: 1.6 / 1;
-    margin: 0.5rem auto;
-    /* border: 2px solid gold; */
-    /* border-radius: 1rem; */
-    overflow: hidden;
-    position: relative;
-  }
+  width: 100%;
+  max-width: 850px;
+  aspect-ratio: 1.6 / 1;
+  margin: 0.5rem auto;
+  border-radius: 1rem;
+  border: none;
+  overflow: visible; /* ✅ allow iframe border to show */
+  position: relative;
+}
+
+.calendar-clipper {
+  width: 100%;
+  height: 100%;
+  overflow: visible; /* ✅ allow iframe border to overflow */
+  position: relative;
+}
+
+.calendar-clipper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  border: 1.5px solid rgb(141, 141, 141);
+  transform: translateY(0); /* ✅ no shift to avoid clipping */
+  box-sizing: border-box; /* ✅ ensures border stays within dimensions */
+}
   
-  .calendar-clipper {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-  }
   
-  .calendar-clipper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: calc(100% + 50px);
-    transform: translateY(24px); 
-    /* pointer-events: none; make it non-interactive if you don't want users to scroll */
-  }
   
   
   @media (max-width: 860px) {
