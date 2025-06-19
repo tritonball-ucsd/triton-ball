@@ -2,42 +2,51 @@
     {
       "image": "Projects/Basketball-Chart.webp",
       "title": "Basketball Shot Prediction",
-      "description": "Using machine learning models to predict shot outcomes in college basketball games based on player positioning and game context."
+      "description": "Using machine learning models to predict shot outcomes in college basketball games based on player positioning and game context.",
+      "link":"https://tritonball.org"
+
     },
     {
       "image": "Projects/PlayerRadar-Chart.webp",
       "title": "Play Style Analysis",
-      "description": "Analyzing player statistics across the league in relation to position."
+      "description": "Analyzing player statistics across the league in relation to position.",
+      "link":"https://tritonball.org"
     },
     {
       "image": "Projects/project2.webp",
       "title": "Baseball Pitch Analysis",
-      "description": "Building a visualization tool to compare pitch types, locations, and spin rates across pitchers in the league."
+      "description": "Building a visualization tool to compare pitch types, locations, and spin rates across pitchers in the league.",
+      "link":"https://tritonball.org"
     },
     {
       "image": "Projects/shotMap.webp",
       "title": "Opponent Shot and Chance Analysis",
-      "description": "Collected, analyzed, and visualized the spatial distribution of opponents shots and chance origins."
+      "description": "Collected, analyzed, and visualized the spatial distribution of opponents shots and chance origins.",
+      "link":"https://tritonball.org"
     },
     {
       "image": "Projects/Basketball-Chart.webp",
       "title": "Basketball Shot Prediction",
-      "description": "Using machine learning models to predict shot outcomes in college basketball games based on player positioning and game context."
+      "description": "Using machine learning models to predict shot outcomes in college basketball games based on player positioning and game context.",
+      "link":"https://tritonball.org"
     },
     {
       "image": "Projects/PlayerRadar-Chart.webp",
       "title": "Play Style Analysis",
-      "description": "Analyzing player statistics across the league in relation to position."
+      "description": "Analyzing player statistics across the league in relation to position.",
+      "link":"https://tritonball.org"
     },
     {
       "image": "Projects/project2.webp",
       "title": "Baseball Pitch Analysis",
-      "description": "Building a visualization tool to compare pitch types, locations, and spin rates across pitchers in the league."
+      "description": "Building a visualization tool to compare pitch types, locations, and spin rates across pitchers in the league.",
+      "link":"https://tritonball.org"
     },
     {
       "image": "Projects/shotMap.webp",
       "title": "Opponent Shot and Chance Analysis",
-      "description": "Collected, analyzed, and visualized the spatial distribution of opponents shots and chance origins."
+      "description": "Collected, analyzed, and visualized the spatial distribution of opponents shots and chance origins.",
+      "link":"https://tritonball.org"
     }
   ]
   

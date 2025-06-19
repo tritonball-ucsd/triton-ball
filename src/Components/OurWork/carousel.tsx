@@ -67,7 +67,7 @@ const EmblaCarousel: React.FC = () => {
         <div className="embla__container">
           {PROJECTS.map((project, index) => (
             <div className="embla__slide" key={index}>
-              <Card image={project.image} title={project.title} description={project.description} />
+              <Card image={project.image} title={project.title} description={project.description} link={project.link} />
             </div>
           ))}
         </div>
