@@ -1,17 +1,20 @@
 [
     {
-        "image": "TB-logo1.svg",
-        "title": "Coming Soon..",
-        "description": "Follow us on Medium for notifications when our first article is released, and join our Discord for additional alerts."
+        "image": "articles/article1.png",
+        "title": "Stockfish for Soccer",
+        "description": "Check out to see a new machine learning approach to valuing passing sequences in soccer. Learn what makes a quality passing sequence and how players can utilize certain techniques at certain parts of the field.",
+        "link": "https://zcochran4275.github.io/StockFishForSoccer/"
+      },
+      {
+        "image": "articles/article2.png",
+        "title": "2 Strikes on a Hitter's Swing",
+        "description": "This article explore how various characteristics of a hitter's swing change when they are on 2 strikes.",
+        "link": "https://d2osborn.github.io/dsc106-finalproject/"
       },
       {
         "image": "TB-logo1.svg",
         "title": "Coming Soon..",
-        "description": "Follow us on Medium for notifications when our first article is released, and join our Discord for additional alerts."
-      },
-      {
-        "image": "TB-logo1.svg",
-        "title": "Coming Soon..",
-        "description": "Follow us on Medium for notifications when our first article is released, and join our Discord for additional alerts."
+        "description": "Follow us on Medium for notifications when our first article is released, and join our Discord for additional alerts.",
+        "link": "https://medium.com/@tritonball"
       }
 ]
