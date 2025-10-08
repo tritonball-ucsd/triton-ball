@@ -1,5 +1,17 @@
 [
-    {
+      {
+        "image": "articles/mj_summer.png",
+        "title": "The Five Pitching Archetypes",
+        "description": "Why might a pitcher perform better or worse after getting traded to a new team? Baseball is unique because of many reasons, one of them being that no park is the same. Emmanuel Viray explores how different pitcher archetypes fit into each MLB stadium, who may thrive in certain ballparks and who might struggle. Is your favorite pitcher a ground ball specialist, or does he fit into the 'finesse' archetype? And what stadiums would he excel in?",
+        "link": "https://medium.com/@tritonball/the-five-pitching-archetypes-a-study-on-their-performance-in-every-mlb-stadium-f6e81db860c8"
+      },
+      {
+        "image": "articles/keanu_summer.png",
+        "title": "Beyond Open Looks",
+        "description": "Have you ever wondered what makes for an 'elite shooter' in the NBA? Are superstars like Kevin Durant and Klay Thompson creating their own shots or reaping the rewards of good passes? Keanu Ventura dives deeper into the statistics and attempts to quantify what makes an elite shooter, elite.",
+        "link": "https://keanuventura.github.io/BeyondOpenLooks/"
+      },
+      {
         "image": "articles/article1.png",
         "title": "Stockfish for Soccer",
         "description": "Check out to see a new machine learning approach to valuing passing sequences in soccer. Learn what makes a quality passing sequence and how players can utilize certain techniques at certain parts of the field.",

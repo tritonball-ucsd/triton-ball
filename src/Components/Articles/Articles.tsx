@@ -14,7 +14,7 @@ export default function Articles() {
     </div>
     
     <div className="article-container">
-        {ARTICLES.map((project, index) => (
+        {ARTICLES.slice(0, 3).map((project, index) => (
         <div className="article-card" key={index}>
             <Card
                 image={project.image}
