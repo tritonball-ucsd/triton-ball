@@ -5,63 +5,72 @@
     "year": "Junior",
     "major": "Data Science",
     "role": "President",
-    "image": "Board/Cochran.webp"
+    "image": "Board/Cochran.webp",
+    "email": "zcochran@ucsd.edu"
   },
   {
     "name": "Jack Kalsched",
     "year": "Junior",
     "major": "Statistics / Data Science Minor",
     "role": "VP - Operations",
-    "image": "Board/Jack.webp"
+    "image": "Board/Jack.webp",
+    "email": "jkalsched@ucsd.edu"
   },
   {
     "name": "Alex Frederick",
     "year": "Junior",
     "major": "Data Science and Math-Econ",
     "role": "VP - Online Content",
-    "image": "Board/Board4.webp"
+    "image": "Board/Board4.webp",
+    "email": "afrederick@ucsd.edu"
   },
   {
-    "name": "Leonard Mallot",
+    "name": "Leonard Malott",
     "year": "Sophomore",
     "major": "Data Science and Economics",
     "role": "Event Coordination",
-    "image": "Board/leo.webp"
+    "image": "Board/leo.webp",
+    "email": "lmalott@ucsd.edu"
   },
   {
     "name": "Roxana Behjat",
     "year": "Junior",
     "major": "Business Econ / Data Science and Cinematic Arts Minor ",
     "role": "Treasurer",
-    "image": "Board/roxy.webp"
+    "image": "Board/roxy.webp",
+    "email": "rbehjat@ucsd.edu"
   },
   {
     "name": "Andrew Zaletski",
     "year": "Sophomore",
     "major": "Data Science",
     "role": "External Affairs",
-    "image": "Board/andrew.webp"
+    "image": "Board/andrew.webp",
+    "email": "azaletski@ucsd.edu"
   },
   {
     "name": "Sam Ouyang",
     "year": "Junior",
     "major": "Data Science and Business Econ",
     "role": "External Affairs",
-    "image": "Board/sam.webp"
+    "image": "Board/sam.webp",
+    "email": "saouyang@ucsd.edu"
   },
   {
     "name": "Devin Sciarrino",
     "year": "Graduate",
     "major": "MS Business Analytics and BS Economics",
     "role": "External Affairs",
-    "image": "Board/devin.webp"
+    "image": "Board/devin.webp",
+    "email": "dsciarrino@ucsd.edu"
   },
   {
     "name": "Bradley Voytek",
     "year": "Professor",
     "major": "Cognitive Science",
     "role": "Faculty Advisor",
-    "image": "Board/Voytek.webp"
+    "image": "Board/Voytek.webp",
+    "email": ""
   }
 
 ]

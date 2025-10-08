@@ -6,6 +6,7 @@ interface BoardMember {
   major: string;
   role: string;
   image: string; // path from board.json (e.g., "Board/john.png")
+  email: string;
 }
 
 function BoardCard({ member }: { member: BoardMember }) {
@@ -25,6 +26,7 @@ function BoardCard({ member }: { member: BoardMember }) {
         {member.year}, {member.major}
       </p>
       <p>{member.role}</p>
+      <a href={"mailto:"+member.email}>{member.email}</a>
     </div>
   );
 }
