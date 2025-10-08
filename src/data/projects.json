@@ -10,7 +10,7 @@
       "image": "Projects/jack_smt.png",
       "title": "Man in the Middle",
       "description": "'The Man in the Middle' provides an in-depth analysis into cutoff decision making in professional baseball. ",
-      "link":"https://github.com/pranavrajaram/smt-2025-submission"
+      "link":"https://github.com/pranavrajaram/smt-2025-submission/blob/main/SMT_Data_Challenge_2025_Paper.pdf"
 
     },
     {
@@ -23,7 +23,7 @@
       "image": "Projects/diego_smt.png",
       "title": "Bayesball in the Outfield:",
       "description": "Bayesball - Quantifying Defensive Aggression With a Bayesian Hierarchical Model ",
-      "link":"https://github.com/d2osborn/SMTChallenge2025"
+      "link":"https://github.com/d2osborn/SMTChallenge2025/blob/main/Team15-project%20paper.pdf"
 
     },
     {
@@ -42,7 +42,7 @@
       "image": "Projects/ty_smt.png",
       "title": "It’s BRI, Bro - Evaluating BaseRunning Intelligence",
       "description": "Obtaining a way of evaluating a player’s and team’s baserunning choices in critical and fast-paced situations.",
-      "link":"https://github.com/TyAlbao/smt-data-challenge-2025"
+      "link":"https://github.com/TyAlbao/smt-data-challenge-2025/blob/main/Team199%20Paper.pdf"
 
     }
   ]
